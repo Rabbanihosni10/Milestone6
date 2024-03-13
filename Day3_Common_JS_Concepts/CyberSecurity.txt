@@ -1,0 +1,88 @@
+Video Link- https://www.youtube.com/watch?v=sOZ656_WhG4
+Cyber Security has 5 pillers-
+1.General Computing
+2.Networking
+3.Programming and Scripting
+4.Windows
+5.Linux
+
+General Computing-
+Learn everything about Computer
+
+Networking-
+CSE320 CSE421
+
+Programming and Scripting-
+Python(if short time)
+if dont have time complexity then learn c and C++ and then move to Python
+Python(networing and penetration testing)
+or learn Bash scripting(linux)
+comands(netstat, whoami, ping, ipconfig)(without cheetsheet)(need lots of practicing)
+
+Windows-
+learn Registry, 
+learn how to find out the ip address of a mechine
+learn how to connect a mechine with an another machine remotely 
+
+Linux-
+same as windows
+how the sudocode works in linux
+how netstat,whoami command works /path variable works
+how to install a perticular binary on linux
+
+
+source- 
+Youtube Videos
+Operating system in cs degree
+
+
+Carrer Path-
+1.Offensive Security(Hacking)(penetration testing)(exploit developer)
+2.Defensive Security(save System)(security engineer, developer,forensic Analyst,Incident responder, threat hunter)
+
+
+Black hat hacker
+Script kiddis
+
+device-
+Need a pc (if price 40k, then pay for web accessable labs)
+
+what is lab envionment-->
+offline-
+-vmware
+-MrRobot
+online-
+-HackTheBox
+-pentesterAcademy
+
+-------------------------------------------
+For Beginner-
+we can apply for these certifications-
+1.GSEC
+2.SEC
+3.CEH
+4.Infosec
+
+for advanced-
+1.OSCP
+2.OSWE
+3.OSEP
+4.OSEE
+-------------------------------------------
+Learn on 5 pillers almost everyday
+keep practicing  
+-------------------------------------------
+After Leaning 5 pillers-
+-Then start hunting bugs
+-practicing in bug bounty programs
+-
+
+---------------------------------------------
+
+Keep Learning ------- Dont Stop -----------
+Learn with joy --------- Stay Annonymous --
+---------------------------------------------
+
+'Great Power Comes With Great Responsivility'
+
+---------------------------------------------
