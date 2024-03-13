@@ -65,4 +65,4 @@ console.log(glass);
  *
  * 
 // Object.freeze()   --> by applying this we cant modify or dellete anything 
-// Object.seal()     --> we can modify the existing property but can't create a new property
+// Object.seal()--> we can modify the existing property but can't create a new property
