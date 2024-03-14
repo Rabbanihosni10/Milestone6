@@ -3,7 +3,6 @@
  * 1.true
  * 2. any number (positive or negetive will be truthy) except 0
  * 3.Any string except empty string
- * 4.'0','false'
  * 5. {}
  * 6.[]
  * 7. {property: value}
