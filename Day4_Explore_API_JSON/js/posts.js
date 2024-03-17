@@ -35,3 +35,23 @@ function displayPosts(posts){
 }
 loadPosts();
 
+
+
+// REST API Method-
+/**
+ * 1.GET
+ * 2.Post     (create a new resourse)  
+ * 3.Put    (if data existed then update else create- Not mandatory)
+ * 4.Patch   (if data existed then update- mandatory)
+ * 5.Delete
+ */
+
+//CRUD-
+/**
+ * 1.Create
+ * 2.Read
+ * 3.Update
+ * 4.Delete 
+ */
+
+
