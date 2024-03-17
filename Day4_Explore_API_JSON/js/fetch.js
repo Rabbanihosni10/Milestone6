@@ -17,3 +17,6 @@ function loadData(){
         .then(response=> response.json())
         .then(json => console.log(json))
 }
+let tol=4;
+tol=parseFloat(tol)
+console.log(tol)
