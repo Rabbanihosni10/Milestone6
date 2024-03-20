@@ -12,14 +12,26 @@
     <h2 class="text-6xl">Hunting Phone</h2>
   </header>
   <main class="container mx-auto mt-8">
+    
     <section class="bg-gray-100 p-4 m-4">
       <input type="text" name="" id="search-field" placeholder="Search..........." class="input input-bordered w-full max-w-xs">
       <button class="btn btn-accent" onclick="handleSearch()">Search</button>
+      <input type="text" id="search-field2" placeholder="Type here" class="input input-ghost w-full max-w-xs" />
+      <button class="btn btn-actice btn-primary" onclick="handleSearch2()">Search</button>
     </section>
+    
+    <!-- spinner or loader -->
+    
     <!-- search result  -->
     <section>
+      <div id="loading-spinner" class="text-center my-40 hidden">
+        <span class="loading loading-spinner text-primary loading-lg"></span>
+      </div>
       <div id="phone-container" class="gap-3 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
         
+      </div>
+      <div id="show-all-container" class="hidden">
+        <button  class="btn btn-active btn-accent ">Show all</button>
       </div>
     </section>
   </main>
@@ -29,3 +41,32 @@
   <script src="js/phone.js"></script>
 </body>
 </html>
+
+<!-- 
+<div class="navbar bg-base-100">
+  <div class="flex-1">
+    <a class="btn btn-ghost text-xl">daisyUI</a>
+  </div>
+  <div class="flex-none gap-2">
+    <div class="form-control">
+      <input type="text" placeholder="Search" class="input input-bordered w-24 md:w-auto" />
+    </div>
+    <div class="dropdown dropdown-end">
+      <div tabindex="0" role="button" class="btn btn-ghost btn-circle avatar">
+        <div class="w-10 rounded-full">
+          <img alt="Tailwind CSS Navbar component" src="https://daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg" />
+        </div>
+      </div>
+      <ul tabindex="0" class="mt-3 z-[1] p-2 shadow menu menu-sm dropdown-content bg-base-100 rounded-box w-52">
+        <li>
+          <a class="justify-between">
+            Profile
+            <span class="badge">New</span>
+          </a>
+        </li>
+        <li><a>Settings</a></li>
+        <li><a>Logout</a></li>
+      </ul>
+    </div>
+  </div>
+</div> -->
