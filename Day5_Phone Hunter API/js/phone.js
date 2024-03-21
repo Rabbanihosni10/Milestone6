@@ -2,9 +2,15 @@
 const loadPhone=async(searchText=13,isShowAll)=>{
     const res= await fetch(`https://openapi.programming-hero.com/api/phones?search=${searchText}`);
     const data= await res.json();
+    // console.log(data);
     const phones=data.data;
     // console.log(data.data);
-    displayPhones(phones,isShowAll);
+    if(data.status==false){
+        noResult()
+    }
+    else{
+        displayPhones(phones,isShowAll);
+    }
 }
 
 
@@ -122,6 +128,16 @@ const toggleLoadingSpinner=(isLoading)=>{
 //handle show all
 const handleShowAll=()=>{
     handleSearch(true);
+}
+
+//display no result
+const noResult=()=>{
+    const resultNone=document.getElementById('none-result-container');
+    resultNone.innerHTML=`
+       <h2>Opssss!!!!!!</h2>
+       <p>There is no product in this name</p>
+    `    
+    noneResult.showModal();
 }
 
 loadPhone();
